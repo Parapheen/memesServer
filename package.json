@@ -1,0 +1,27 @@
+{
+  "name": "servermemespage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parapheen/memesServer.git"
+  },
+  "author": "Parapheen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parapheen/memesServer/issues"
+  },
+  "homepage": "https://github.com/Parapheen/memesServer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.2"
+  }
+}
